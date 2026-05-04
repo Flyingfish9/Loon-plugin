@@ -13,6 +13,7 @@
 // @Version           V1.0.11
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/GoofishAds.conf
 // ==/UserScript==
+#!desc =闲鱼去广告
 
 
 domain-suffix,iyes.youku.com,reject
