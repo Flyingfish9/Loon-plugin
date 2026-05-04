@@ -14,7 +14,6 @@
 ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/resource-exposure\/config url reject-200
 
 [Script]
-http-request ^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ 
 ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/home\/framework\/tab url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
 ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
 ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/page\/rcmd\/resource\/show url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
@@ -40,4 +39,4 @@ http-request ^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/searc
 ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/batch url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
 
 [MITM]
-hostname = *.music.163.com,interface*.music.163.com
+hostname = interface*.music.163.com
