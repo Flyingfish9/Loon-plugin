@@ -1,3 +1,4 @@
+#!desc =闲鱼去广告
 // ==UserScript==
 // @ScriptName        小黄鱼净化[墨鱼版]
 // @Author            @ddgksf2013
@@ -13,7 +14,6 @@
 // @Version           V1.0.11
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/GoofishAds.conf
 // ==/UserScript==
-#!desc =闲鱼去广告
 
 
 domain-suffix,iyes.youku.com,reject
