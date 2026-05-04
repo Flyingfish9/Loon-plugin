@@ -21,7 +21,8 @@
 ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/resource-exposure\/config url reject-200
 
 [Script]
-#显示下载失败暂时停用http-request ^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/wyun.js
+http-request ^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ 
+#显示下载失败暂时停用script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/wyun.js
 # ======= 网易云框架区 ======= #
 # > 底部Tab@ddgksf2013
 ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/home\/framework\/tab url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
