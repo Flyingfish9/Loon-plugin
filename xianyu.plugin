@@ -1,5 +1,6 @@
 #!name=闲鱼
 #!desc=闲鱼去广告
+#!icon=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/03CNSoft/xianyu.png
 // ==UserScript==
 // @ScriptName        小黄鱼净化[墨鱼版]
 // @Author            @ddgksf2013
